@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>首页-企业板块</title>
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/index.css">
+  <link rel="stylesheet" href="./css/swiper2.0.css">
+</head>
+
+<body>
+  <div class="index-wrap">
+    <div class="header oh">
+      <div class="fl">
+        <a href="javascript:void(0);" class="fl index_img">
+                <img src="./img/logo.png">
+            </a>
+        <a href="javascript:void(0);" class="fl pro_name">工程项目协同管理平台</a>
+
+      </div>
+      <div class="fr header_right">
+        <div class="oh">
+          <i class="drop_out fr"></i>
+          <a href="javascript:void(0);" class="project_name fr">
+            <span>北京鹿港嘉苑住宅建设项目建设</span>    
+            <i class="sanjiao"></i>
+            <ul class="pop_ul">
+                <li>北京鹿港嘉苑住宅建设项目</li>
+                <li>北京鹿港嘉苑住宅建设项目</li>
+                <li>北京鹿港嘉苑住宅建设项目</li>
+              </ul>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="box">
+      <div class="index-center">
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="left-lunbo oh">
+                
+                 <a href="#" class="a-gdzl img_145 fl">
+                    <span class="index-icon-span span-gdzl"></span>
+                    <p>归档资料</p>
+                  </a>
+                   <a href="#" class="a-gcxj img_145 fl">
+                    <span class="index-icon-span span-gcxj"></span>
+                    <p>工程巡检</p>
+                  </a>
+                   <a href="" class="a-gcyk img_145 fl">
+                       <span class="index-icon-span span-gcyk"></span>
+                    <p>工程预控</p>
+                  </a>
+
+                   <a href="" class="a-gcxx img_145 fl">
+                      <span class="index-icon-span span-gcxx"></span>
+                    <p>工程信息</p>
+                  </a>
+
+                    <a href="" class="a-fxyj img_145 fl">
+                       <span class="index-icon-span span-fxyj"></span>
+                    <p>风险预警</p>
+                  </a>
+
+
+                    <a href="" class="a-yzgl img_145 fl">
+                        <span class="index-icon-span span-yzgl"></span>
+                        <p>印章管理</p>
+                  </a>
+
+                     <a href="" class="a-jcxgl img_145 fl">
+                        <span class="index-icon-span span-jcxgl"></span>
+                        <p>检查项管理</p>
+                  </a>
+
+
+                     <a href="" class="a-rygl img_145 fl">
+                        <span class="index-icon-span span-rygl"></span>
+                        <p>人员管理</p>
+                  </a>
+
+              </div>
+           
+              <div class="right-lunbo oh">
+               
+                <div class="tq-bg fl">
+                  <div class="today">今天</div>
+                  <img src="./img/tqtb.png" class="tqtb">
+                  <h2>19-32℃</h2>
+                  <div>晴转多云</div>
+                  <div class="week">星期一</div>
+                  <div>2017年08月25日</div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+                          <div class="left-lunbo oh">
+                
+                 <a href="#" class="a-pzmkgl img_145 fl">
+                    <span class="index-icon-span span-pzmkgl"></span>
+                    <p>旁站模块管理</p>
+                  </a>
+
+
+              </div>
+            
+           
+            </div>
+          </div>
+          <div class="pagination"></div>
+        </div>
+        
+        <a class="arrow-left swiper-button-prev" href="#"></a>
+        <a class="arrow-right swiper-button-next" href="#"></a>
+      </div>
+    </div>
+    <div class="index-footer">
+      北京帕克工程咨询有限公司技术支持 电话：58795611
+    </div>
+  </div>
+
+  <script src="./js/jquery-1.11.1.min.js"></script>
+  <script src="./js/swiper2.0.min.js"></script>
+  <script src="./js/index.js"></script>
+  <script>
+    var mySwiper = new Swiper('.swiper-container', {
+      pagination: '.pagination'
+    });
+    $('.arrow-left').on('click', function (e) {
+      e.preventDefault()
+      mySwiper.swipePrev()
+    })
+    $('.arrow-right').on('click', function (e) {
+      e.preventDefault()
+      mySwiper.swipeNext()
+    })
+  </script>
+</body>
+
+</html>
